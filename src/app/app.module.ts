@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MainCardComponent } from './main-card/main-card.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MainFooterComponent } from './main-footer/main-footer.component';
+import { UserCardComponent } from './user-card/user-card.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MainFooterComponent } from './main-footer/main-footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    UserCardComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

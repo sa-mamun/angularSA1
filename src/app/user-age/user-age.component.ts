@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './user-age.component.html',
   styleUrl: './user-age.component.css'
 })
-export class UserAgeComponent {
 
+export class UserAgeComponent {
+  age: string = '31';
 }
